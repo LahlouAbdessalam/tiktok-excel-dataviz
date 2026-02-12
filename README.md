@@ -1,2 +1,41 @@
-# tiktok-excel-dataviz
-Excel analysis (Pivot Tables + Dataviz) to identify success factors on TikTok videos.
+# TikTok Excel DataViz — Trending & Performance Analysis
+
+## Why this project
+I wanted a simple but solid Excel workbook that helps understand what usually drives performance on TikTok: views, likes, comments, shares, engagement, and how these metrics behave across different samples (trending, collected videos, liked videos, hashtags).
+
+## What’s inside
+**Excel workbook (`/excel/`)**
+- Clean tables and structured sheets
+- Pivot Tables to explore trends and top performers
+- Charts (including scatter plots) to visualize relationships between metrics
+- A TreeMap view to compare categories/accounts visually
+- KPI tables: views, likes, comments, shares, engagement rate
+
+**Datasets (`/data/`)**
+- `trending_videos.csv`
+- `trending_authors.csv`
+- `tiktok_collected_videos.csv`
+- `tiktok_collected_liked_videos.csv`
+- `tiktok_funny_hashtag_videos.csv`
+
+## What I did (quick overview)
+- Organized the raw data into analysis-ready tables
+- Built Pivot Tables for quick slicing (by author, category, verification status, etc.)
+- Checked correlations (ex: views vs likes, engagement vs shares)
+- Built a few visual pages to make patterns easy to spot
+
+## Key takeaways
+(These are examples — I’ll update them as I refine the analysis.)
+- Views and likes tend to move together strongly.
+- Engagement patterns can change depending on the dataset (trending vs collected).
+- Verification status and content category are useful dimensions to segment results.
+
+## How to use
+1. Open the Excel file in `/excel/`
+2. Start with the dashboard/summary sheets
+3. Use Pivot filters to explore specific segments (authors, categories, etc.)
+
+## Next improvements
+- Add screenshots of the main dashboards in `/docs/screenshots/`
+- Rebuild the same analysis in Power BI (data model + DAX measures)
+
