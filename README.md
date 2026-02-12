@@ -35,7 +35,4 @@ I wanted a simple but solid Excel workbook that helps understand what usually dr
 2. Start with the dashboard/summary sheets
 3. Use Pivot filters to explore specific segments (authors, categories, etc.)
 
-## Next improvements
-- Add screenshots of the main dashboards in `/docs/screenshots/`
-- Rebuild the same analysis in Power BI (data model + DAX measures)
 
