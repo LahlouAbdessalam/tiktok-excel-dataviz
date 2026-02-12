@@ -24,11 +24,6 @@ I wanted a simple but solid Excel workbook that helps understand what usually dr
 - Checked correlations (ex: views vs likes, engagement vs shares)
 - Built a few visual pages to make patterns easy to spot
 
-## Key takeaways
-(These are examples — I’ll update them as I refine the analysis.)
-- Views and likes tend to move together strongly.
-- Engagement patterns can change depending on the dataset (trending vs collected).
-- Verification status and content category are useful dimensions to segment results.
 
 ## How to use
 1. Open the Excel file in `/excel/`
